@@ -13,4 +13,5 @@ Definitely some things I would do differently and a lot of room for improvement.
     Worked earlier now there are some problems with dependencies.
 
 Either way, you have to start somewhere, the end result can be seen [here](https://foxable.cloud/)
+
 The next version will be made using a javascript framework :D
