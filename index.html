@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="HomePageStyles.css">
+    <link rel="icon" type="image/png" href="../Pictures/RoundFoxDarkAlpha.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="./HomePage.Js"></script>
+    <title>FoxAble.Cloud</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item-Header"> <img src="../Pictures/layered-waves3.svg" alt="BackSVG" style="width:100%; height:auto;" ></div>
+        <div class="item-H">   
+            <div id="mySidebar" class="sidebar">
+                <a class="sidebarButton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">☰</a>
+                <a class="sidebarTextButton" href="#" onclick="OCSub1()"><img src="../Pictures/expand_more_white_18dp.svg" style="width:1.8vw; vertical-align:sub;" alt="ArrowSVG"> FoxAble.Cloud</a>
+                <a class="sidebarText" style="display: none" id="sub1" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/HowTo.html">How To</a>
+                <a class="sidebarText" style="display: none" id="sub2" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Blog.html">Blog</a>
+                <a class="sidebarText" style="display: none" id="sub6" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Taxes.html">Taxes</a>
+                <a class="sidebarText" style="display: none" id="sub3" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Video.html">Video</a>
+                <a class="sidebarText" style="display: none" id="sub4" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Gallery.html">Gallery</a>
+                <!--<a class="sidebarText" style="display: none" id="sub5" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Investing.html">Investing</a> Sometimesoon?-->
+                <a class="sidebarTextButton" href="#" onclick="OCSub2()"><img src="../Pictures/expand_more_white_18dp.svg" style="width:1.8vw; vertical-align:sub;" alt="ArrowSVG"> Community</a>
+                <a class="sidebarText" style="display: none" id="sub21" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Users.html">Users</a>
+                <a class="sidebarText" style="display: none" id="sub22" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Forum.html">Forum</a>
+                <a class="sidebarText" style="display: none" id="sub23" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Content.Html">Content</a>
+                <a class="sidebarText" style="display: none" id="sub24" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Messages.html">Messages</a>
+                <a class="sidebarTextButton" href="#" onclick="OCSub3()"><img src="../Pictures/expand_more_white_18dp.svg" style="width:1.8vw; vertical-align:sub;" alt="ArrowSVG"> Resources</a>  <!--Näistät tule Treegrid eli ˅ ˄ ˅-->
+                <a class="sidebarText" style="display: none" id="sub31" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/WebDesign.html">Web Design</a>
+                <a class="sidebarText" style="display: none" id="sub32" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Programs.html">Programs</a>
+                <a class="sidebarText" style="display: none" id="sub33" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Services.html">Services</a>
+                <a class="sidebarText" style="display: none" id="sub34" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Libraries.html">Libraries</a>
+                <a class="sidebarText" od="Main1" href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/AboutMe.html">About Me</a>
+            </div>
+            <div id="main">
+                <button id=OpenButton class="openbtn" style="width:70%" onclick="openNav()">☰ </button>  
+            </div> 
+        </div>
+        <div class="item-Logo" > <img src="../Pictures/TextlogoAlphaBlack.png" alt="Logo" style="width: 70%; ;"></div>
+        
+        <div class="item-Color1"> </div>
+        <div class="item-SocializeHeader Slide active2" style="display: block" id="Socialize1"> Socialize</div>
+        <div class="item-SocializeHeader Slide" style="display: block" id="Socialize2"> Interact</div>
+        <div class="item-SocializeHeader Slide" style="display: block" id="Socialize3"> Meet</div>
+        <p class="item-SocializeText"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque optio soluta doloribus eum distinctio voluptas illo unde quis dignissimos natus architecto non animi quibusdam dolor et incidunt, facilis quia fuga! Culpa optio tempora et ipsum voluptas illum rem cumque maiores.</p>
+        <div class="item-SocializePicture" > <model-viewer alt="NeilEarth" src="../Pictures/WorksEarth2MOD2.glb" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/Space_1k.hdr" poster="../Pictures/SeamlessEarth.webp" seamless-poster shadow-intensity="1" camera-controls enable-pan></model-viewer></div>
+        <div class="item-empty reveal"> </div>
+
+        <div class="item-OrganizeHeader Slide active2" style="display: block" id="Organize1"> Organize</div>
+        <div class="item-OrganizeHeader Slide" style="display: block" id="Organize2"> Coordinate</div>
+        <div class="item-OrganizeHeader Slide" style="display: block" id="Organize3"> Schedule</div>
+        <p class="item-OrganizeText reveal"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque optio soluta doloribus eum distinctio voluptas illo unde quis dignissimos natus architecto non animi quibusdam dolor et incidunt, facilis quia fuga! Culpa optio tempora et ipsum voluptas illum rem cumque maiores.</p>
+        <div class="item-OrganizePicture reveal" > <img src="../Pictures/RoundFoxTailWithAlpha.png" alt="Logo" style="width: 120%;padding-left: 2vw;"></div>
+        
+        <div class="item-empty2 reveal"> </div>
+        
+        <div class="item-ShareHeader reveal" > Share <div style="display: inline" class="TypeTextS"></div> </div>
+        <script>
+            var typing=new Typed(".TypeTextS", {
+                strings: [ "Ideas", "Insight", "Code", "Art"],
+                typeSpeed: 300,
+                backSpeed: 80,
+                loop: true,
+            });
+        </script>
+
+        <p class="item-ShareText reveal"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque optio soluta doloribus eum distinctio voluptas illo unde quis dignissimos natus architecto non animi quibusdam dolor et incidunt, facilis quia fuga! Culpa optio tempora et ipsum voluptas illum rem cumque maiores.</p>
+        <div class="item-SharePicture item-ShareBox1 reveal" > Ooh, Look at this Blender render! &#128552;</div> 
+        <div class="item-SharePicture item-ShareBox2 reveal" > It's so realistic &#128565;</div>
+        <div class="item-SharePicture item-ShareBox3 reveal" > Blender is amazing! Can't believe it's free</div>
+        <div class="item-SharePicture item-ShareBox4 reveal" > I would love to learn it &#128525;</div>
+        <div class="item-empty3 reveal"> </div>
+
+        <div class="item-Color2"> </div>
+        <div class="item-LearnHeader reveal" > Learn </div>
+        <div class="item-LearnHeader2 reveal"> <div class="HTextShown" id="HeaderSlide1">Blender</div></div>
+        <div class="item-LearnHeader2 reveal"> <div class="HTextHidden" id="HeaderSlide2">VS Code</div></div>
+        <div class="item-LearnHeader2 reveal"> <div class="HTextHidden" id="HeaderSlide3">InkScape</div></div>
+        <div class="item-LearnHeader2 reveal"> <div class="HTextHidden" id="HeaderSlide4">DaVinci Resolve</div></div>
+        <p class="item-LearnText reveal"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque optio soluta doloribus eum distinctio voluptas illo unde quis dignissimos natus architecto non animi quibusdam dolor et incidunt, facilis quia fuga! Culpa optio tempora et ipsum voluptas illum rem cumque maiores.</p>
+        <div class="item-LearnPicture reveal" > <img src="../Pictures/BlenderCard2.PNG" alt="BlenderCard" id="PictureSlide1" style="width: 160%; border-radius: 1vw;" class="PictureShown"></div>
+        <div class="item-LearnPicture reveal" > <img src="../Pictures/VSCodeCard.PNG" alt="VSCodeCard" id="PictureSlide2" style="width: 160%; border-radius: 1vw;" class="PictureHidden"></div>
+        <div class="item-LearnPicture reveal" > <img src="../Pictures/FrontFoxCard.PNG" alt="InkScapeCard" id="PictureSlide3" style="width: 160%; border-radius: 1vw;" class="PictureHidden"></div>
+        <div class="item-LearnPicture reveal" > <img src="../Pictures/DaVinciCard.png" alt="DaVinci" id="PictureSlide4" style="width: 160%; border-radius: 1vw;" class="PictureHidden"></div>
+
+
+
+
+        <div class="item-empty4 reveal"> </div>
+        <div class="item-BeHeader" >Be <div style="display: inline" class="TypeText"></div> </div> 
+        <script>
+            var typing=new Typed(".TypeText", {
+                strings: [ "Curious", "Inspired", "Involved"],
+                typeSpeed: 300,
+                backSpeed: 80,
+                loop: true,
+            });
+        </script>
+        <p class="item-BeText reveal"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque optio soluta doloribus eum distinctio voluptas illo unde quis dignissimos natus architecto non animi quibusdam dolor et incidunt, facilis quia fuga! Culpa optio tempora et ipsum voluptas illum rem cumque maiores.</p>
+        
+        <div class="item-BePicture2" id="MagniP" > <img src="../Pictures/MagniP1.png" class="MoveP1" id="MagniP1" alt="Logo" style="width: 13vw"></div>
+        <div class="item-BePicture2" id="MagniP" > <img src="../Pictures/MagniP2.png" class="MoveP22" id="MagniP2" alt="Logo" style="width: 12.8vw"></div>
+        <div class="item-BePicture2" id="MagniP" > <img src="../Pictures/MagniP3.png" class="MoveP33" id="MagniP3" alt="Logo" style="width: 13vw"></div>
+        <div class="item-BePicture2" id="MagniP" > <img src="../Pictures/MagniP4.png" class="MoveP44" id="MagniP4" alt="Logo" style="width: 13vw"></div>
+        <div class="item-BePicture2" id="Magni1" > <img src="../Pictures/MagniFyingGlass.png" class="Move1" id="Magni2" alt="Logo" style="width: 20vw"></div>
+        
+        <div class="item-empty5 reveal"> </div>
+
+        <div class="item-Color3"> </div>
+
+        <div class="item-Discover1 Left1" > <img src="../Pictures/FoxCard2.png" alt="Logo" style="width: 30%; border-radius: 1vw;"></div>
+        <div class="item-Discover1 Middle1" > <img src="../Pictures/FoxCard2.png" alt="Logo" style="width: 30%; border-radius: 1vw;"></div>
+        <div class="item-Discover1 Right1" > <img src="../Pictures/FoxCard2.png" alt="Logo" style="width: 30%; border-radius: 1vw;"></div>
+        <a href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Users.html" class="ex1 item-Discover1 LeftO2" > Fox | InkScape <div class="font2"> Learn to Vectorize</div></a>
+        <a href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Users.html" class="ex1 item-Discover1 MiddleO2" >  Taxes | Kraken <div class="font2"> Automate Your Taxes</div></a>
+        <a href="http://127.0.0.1:5500/SiteProject/NewCopy/SubPages/Users.html" class="ex1 item-Discover1 RightO2" > .glTF | Blender <div class="font2"> 3D-Objects in Web design</div></a>
+        
+        <div class="item-DiscoverHeader reveal" > Discover </div>
+
+        <div class="item-empty6 reveal"> </div>
+
+        <div class="item-FooterLogo" > <img src="../Pictures/TextLogoWhite.png" alt="Logo" style="width: 100%; ;"></div>
+        <div class="item-FooterHeader01V fa"> 
+            <a class="ex4 item-FooterYoutube fa" href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" > &#xf16a;</a>
+            <a class="ex4 item-FooterYoutube2" href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" > FoxAble.Cloud </a>
+            
+            <div class="item-FooterContact" style="font-size: 3vw;" >   
+                <div style="font-size: 1.85vw;"> <span style="font-size: 2.5vw; margin-left: -0.24vw;"> &#9993; </span> <span style="padding-left: 0.4vw;"> FoxAble.Cloud</span><span style="font-size: 1.85vw;">@pm.me </span></div>
+            </div>
+            <div class="ex4 fa" style="padding-top: 0.8vw; padding-left: 0.2vw; font-size: 2.5vw; color: #ffffffc2;">
+                <a class="ex4 fa-regular fa-lock" href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA"> </a>
+            </div>
+            <a class="ex4" style="padding-top: 1vw; margin-left: 0.3vw; padding-left: 0.6vw; font-size: 1.85vw;" href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" > Privacy Policy</a>
+            <div style="padding-left: 0.1vw; padding-top: 1vw; font-size: 2.3vw; padding-bottom: 3vw;"> &#169; <span style="padding-left: 0.65vw; font-size: 1.8vw;">FoxAble.Cloud, 2022 </span> </div>
+        </div>
+        <div class="item-FooterHeader1"> FoxAble.Cloud</div>
+        <div class="item-FooterHeader1V">
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader21"> How To</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Blog</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Taxes</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Video</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Gallery</a>
+            
+        </div>
+        <div class="item-FooterHeader2"> Community</div>
+        <div class="item-FooterHeader2V">
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader21"> Users</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Forum</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Content</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader22"> Messages</a>
+        </div>
+        <div class="item-FooterHeader3"> Resources</div>
+        <div class="item-FooterHeader3V">
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader31"> Web Design</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader32"> Programs</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader32"> Services</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader32"> Libraries</a>
+            <a href="https://www.youtube.com/channel/UCatW79lPtNsI4g2hyVJOwAA" class="ex3 item-FooterHeader32"> About Us</a>
+        </div>
+    </div>
+</body>
+
+</html>
